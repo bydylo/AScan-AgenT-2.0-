@@ -776,7 +776,7 @@ def build_hit_text(server, item, data):
     template += f"""
 {S}  --------------------------{R}
 {B} Grupo    -> {L}AScan{R}
-{B} Telegram -> {L}https://t.me/+UfgoBcTQpwBlMDMx{R}
+{B} Telegram -> {L}https://t.me/DyloExpert{R}
 {B}╰──────────────────────────{R}"""
 
     return template, is_ilimitado
