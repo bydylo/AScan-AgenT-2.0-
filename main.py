@@ -43,12 +43,12 @@ C = {
     'input': '#0A0E14',
 }
 
-REPO_OWNER = 'StartStatic1'
+REPO_OWNER = 'bydylo'
 REPO_NAME = 'AScan-AgenT-2.0-'
 REPO_BRANCH = 'main'
 COMBOS_API = 'https://api.github.com/repos/%s/%s/contents/combos' % (REPO_OWNER, REPO_NAME)
 COMBOS_RAW = 'https://raw.githubusercontent.com/%s/%s/%s/combos/' % (REPO_OWNER, REPO_NAME, REPO_BRANCH)
-TELEGRAM = 'https://t.me/+UfgoBcTQpwBlMDMx'
+TELEGRAM = 'https://t.me/DyloExpert'
 APP_VERSION = '2.0.2'
 VERSION_URL = 'https://raw.githubusercontent.com/%s/%s/%s/version.json' % (REPO_OWNER, REPO_NAME, REPO_BRANCH)
 RELEASES_URL = 'https://github.com/%s/%s/releases/latest' % (REPO_OWNER, REPO_NAME)
