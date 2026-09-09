@@ -77,7 +77,7 @@ jobs:
             Build #${{ github.run_number }}
 
             **Download direto (usado pelo update in-app):**
-            https://github.com/StartStatic1/AScan-AgenT-2.0-/releases/download/native-latest/AScan-Agent.apk
+            https://github.com/bydylo/AScan-AgenT-2.0-/releases/download/native-latest/AScan-Agent.apk
 
             - Assinatura fixa (instala por cima)
             - Scan sequencial 1→2→3
@@ -95,7 +95,7 @@ jobs:
             "version": "$VER",
             "min_version": "2.0.6-native",
             "force": false,
-            "apk_url": "https://github.com/StartStatic1/AScan-AgenT-2.0-/releases/download/native-latest/AScan-Agent.apk",
+            "apk_url": "https://github.com/bydylo/AScan-AgenT-2.0-/releases/download/native-latest/AScan-Agent.apk",
             "message": "$VER — build automatico #${{ github.run_number }}. Toque em Atualizar no app."
           }
           EOF
