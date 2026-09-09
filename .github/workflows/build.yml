@@ -116,6 +116,6 @@ jobs:
           - Salvamento automatico de hits
 
           ### Grupo: AScan
-          ### Telegram: https://t.me/+UfgoBcTQpwBlMDMx
+          ### Telegram: https://t.me/DyloExpert
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
