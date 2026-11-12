@@ -1,7 +1,7 @@
 {
-  "version": "2.0.28-native",
+  "version": "2.0.29-native",
   "min_version": "2.0.6-native",
   "force": false,
   "apk_url": "https://github.com/bydylo/wAScan-AgenT-2.0-/releases/download/native-latest/AScan-Agent.apk",
-  "message": "2.0.28-native — build automatico #2. Toque em Atualizar no app."
+  "message": "2.0.29w-native — build automatico #2. Toque em Atualizar no app."
 }
