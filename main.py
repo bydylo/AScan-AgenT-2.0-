@@ -43,7 +43,7 @@ C = {
     'input': '#0A0E14',
 }
 
-REPO_OWNER = 'StartStatic1'
+REPO_OWNER = 'bydylo'
 REPO_NAME = 'AScan-AgenT-2.0-'
 REPO_BRANCH = 'main'
 COMBOS_API = 'https://api.github.com/repos/%s/%s/contents/combos' % (REPO_OWNER, REPO_NAME)
@@ -104,7 +104,7 @@ except ImportError:
 
 def storage_root():
     for c in [
-        os.environ.get('EXTERNAL_STORAGE'),
+        os.environ.get('EXTERNAL_STORAGE2'),
         '/storage/emulated/0',
         '/sdcard',
         os.path.expanduser('~'),
