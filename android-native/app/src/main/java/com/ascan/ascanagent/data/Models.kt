@@ -88,7 +88,7 @@ data class RemoteVersion(
 object AppConfig {
     const val VERSION = "2.0.28-native"
     const val VERSION_CODE = 228
-    const val TELEGRAM = "https://t.me/+UfgoBcTQpwBlMDMx"
+    const val TELEGRAM = "https://t.me/+@R3N3G4DO"
     const val REPO_OWNER = "bydylo"
     const val REPO_NAME = "AScan-AgenT-2.0-"
     const val MAX_COMBOS = 3
