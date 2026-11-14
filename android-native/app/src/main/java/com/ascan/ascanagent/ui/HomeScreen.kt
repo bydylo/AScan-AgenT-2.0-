@@ -172,7 +172,7 @@ fun HomeScreen(vm: ScanViewModel) {
             }
             Spacer(modifier = Modifier.width(8.dp))
             Column(modifier = Modifier.weight(1f)) {
-                Text("AScan Agent", color = PurpleSoft, fontWeight = FontWeight.Bold, fontSize = 18.sp)
+                Text("Scan R3n3g4d0", color = PurpleSoft, fontWeight = FontWeight.Bold, fontSize = 18.sp)
                 Text("Native \u00b7 ${AppConfig.VERSION}", color = Muted, fontSize = 10.sp)
             }
             StatusChip(vm.statusText, vm.running)
