@@ -168,11 +168,11 @@ fun HomeScreen(vm: ScanViewModel) {
     Column(modifier = Modifier.fillMaxSize().background(Bg).padding(horizontal = 12.dp, vertical = 8.dp)) {
         Row(modifier = Modifier.fillMaxWidth(), verticalAlignment = Alignment.CenterVertically) {
             Box(modifier = Modifier.size(36.dp).clip(RoundedCornerShape(10.dp)).background(Purple), contentAlignment = Alignment.Center) {
-                Text("", color = Color.White, fontWeight = FontWeight.Bold, fontSize = 18.sp)
+                Text("R", color = Color.White, fontWeight = FontWeight.Bold, fontSize = 18.sp)
             }
             Spacer(modifier = Modifier.width(8.dp))
             Column(modifier = Modifier.weight(1f)) {
-                Text("R3N3G4D0SCAN", color = PurpleSoft, fontWeight = FontWeight.Bold, fontSize = 18.sp)
+                Text("R3N3G4D0", color = PurpleSoft, fontWeight = FontWeight.Bold, fontSize = 18.sp)
                 Text("Native \u00b7 ${AppConfig.VERSION}", color = Muted, fontSize = 10.sp)
             }
             StatusChip(vm.statusText, vm.running)
