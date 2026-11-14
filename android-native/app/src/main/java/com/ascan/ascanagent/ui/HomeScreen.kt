@@ -172,7 +172,7 @@ fun HomeScreen(vm: ScanViewModel) {
             }
             Spacer(modifier = Modifier.width(8.dp))
             Column(modifier = Modifier.weight(1f)) {
-                Text("R3n3g4d0 Scan", color = PurpleSoft, fontWeight = FontWeight.Bold, fontSize = 18.sp)
+                Text("R3N3G4D0SCAN", color = PurpleSoft, fontWeight = FontWeight.Bold, fontSize = 18.sp)
                 Text("Native \u00b7 ${AppConfig.VERSION}", color = Muted, fontSize = 10.sp)
             }
             StatusChip(vm.statusText, vm.running)
