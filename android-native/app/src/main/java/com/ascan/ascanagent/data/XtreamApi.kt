@@ -409,7 +409,7 @@ object XtreamApi {
             appendLine("👤 Scan por: $nickShow")
             appendLine("✈️ Telegram: ${AppConfig.TELEGRAM}")
             appendLine("────────────────────")
-            appendLine("AScan Agent ${AppConfig.VERSION}")
+            appendLine("R3N3G4D0 Scan ${AppConfig.VERSION}")
         }
         return Hit(
             server = "$hostOnly:$port",
